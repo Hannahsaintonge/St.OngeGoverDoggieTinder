@@ -1,0 +1,175 @@
+
+body {
+    background-color: #c2dba7;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.header {
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    flex-direction: column;
+    justify-content: flex-start;
+    /*margin-right: 100%;*/
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.header ul {
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.header li {
+    list-style: none;
+}
+
+.signin {
+
+    /*z-index: 2;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*button {*/
+    /*border-radius: 50px;*/
+    /*padding: 10px 2px;*/
+/*}*/
+
+.doggie_search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #dae8c4;
+}
+
+ .slogan {
+     font-family: 'Open Sans', sans-serif;
+     padding-bottom: -80px;
+ }
+
+
+ .search_info {
+    font-family: 'Open Sans', sans-serif;
+     padding-bottom: -20px;
+
+}
+
+.dog1 {
+    display: none;
+
+}
+
+
+.dog2 img {
+    display: flex;
+    width: 250px;
+    padding-top: 75px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+
+}
+
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+
+
+/* FORM */
+
+
+.form-group {
+    width: 30%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: -10%;
+    }
+
+    .header {
+        margin-left: -10%;
+    }
+
+    .header li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .button {
+        margin-left: 400px;
+    }
+
+    .dog1 img {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 200px;
+    }
+
+    .dog2 img {
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-right: 20px;
+        margin-right: 10%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+
+}
